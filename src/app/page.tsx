@@ -7,6 +7,29 @@ export default function Home() {
       data-new-gr-c-s-check-loaded="14.1110.0"
       data-gr-ext-installed=""
     >
+      {/* background image */}
+      <div className="absolute h-auto z-20 top-0 inset-x-0 flex justify-center overflow-hidden pointer-events-none">
+        <div className="w-[108rem] flex-none flex justify-end">
+          {/* <picture>
+            <source srcSet="/tricolor.avif" type="image/avif" />
+            <img
+              src="/tricolor.png"
+              alt=""
+              className="w-[71.75rem] h-auto flex-none max-w-none dark:hidden"
+              decoding="async"
+            />
+          </picture> */}
+          {/* <picture>
+            <source srcSet="/tricolor.avif" type="image/avif" />
+            <img
+              src="/tricolor.png"
+              alt=""
+              className="w-[90rem] h-auto flex-none max-w-none hidden dark:block"
+              decoding="async"
+            />
+          </picture> */}
+        </div>
+      </div>
       {/* <!-- home section --> */}
       <section className="bg-white py-10 md:mb-10">
         <div className="container max-w-screen-xl mx-auto px-4">
