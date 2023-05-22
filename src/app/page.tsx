@@ -48,9 +48,9 @@ export default function Home() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="feather feather-menu"
                 >
                   <line x1="3" y1="12" x2="21" y2="12"></line>
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
           </nav>
 
-          <div className="flex flex-col lg:flex-row justify-between space-x-20">
+          <div className="flex flex-col lg:flex-row lg:justify-between lg:space-x-20">
             <div className="text-center lg:text-left mt-40">
               <h1 className="font-Noto font-semibold text-gray-900 text-3xl md:text-6xl leading-normal mb-6">
                 እኛ ለኛ እድር
@@ -114,7 +114,9 @@ export default function Home() {
             </div>
 
             <div className="mt-24">
-              <img src="assets/image/home-img.png" alt="Image" />
+              <div className="flex justify-center">
+                <img src="assets/image/home-img.png" alt="Image" />
+              </div>
             </div>
           </div>
         </div>
@@ -143,9 +145,9 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-globe"
                   >
                     <circle cx="12" cy="12" r="10"></circle>
@@ -176,9 +178,9 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-chevron-right"
                   >
                     <polyline points="9 18 15 12 9 6"></polyline>
@@ -197,9 +199,9 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-arrow-up-right"
                   >
                     <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -229,9 +231,9 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-chevron-right"
                   >
                     <polyline points="9 18 15 12 9 6"></polyline>
@@ -250,9 +252,9 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-clock"
                   >
                     <circle cx="12" cy="12" r="10"></circle>
@@ -283,9 +285,9 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-chevron-right"
                   >
                     <polyline points="9 18 15 12 9 6"></polyline>
@@ -621,9 +623,9 @@ export default function Home() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="feather feather-sun text-info"
                     >
                       <circle cx="12" cy="12" r="5"></circle>
@@ -656,9 +658,9 @@ export default function Home() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="feather feather-award text-red-500"
                     >
                       <circle cx="12" cy="8" r="7"></circle>
@@ -686,9 +688,9 @@ export default function Home() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="feather feather-users text-yellow-500"
                     >
                       <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
@@ -716,9 +718,9 @@ export default function Home() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="feather feather-trending-up text-green-500"
                     >
                       <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
@@ -811,9 +813,9 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-facebook"
                   >
                     <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
@@ -831,9 +833,9 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-twitter"
                   >
                     <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
@@ -851,9 +853,9 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-linkedin"
                   >
                     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
